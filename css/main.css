@@ -1,0 +1,288 @@
+body { 
+
+		width: 1420px;
+
+		margin: 0 auto;
+		font-family: Arial;
+		background-image: url(http://sd-crvenazvezda.net/wordpress/wp-content/uploads/2016/05/Pozadina4.jpg);
+		
+		
+	}
+
+		#header{
+
+	width: 1400px;
+
+	height: 100px;
+
+	//border: 1px solid black;
+
+	background-color: #cc3228;
+
+	//margin: 0 auto;
+
+	position: fixed;
+
+	top: 0;
+	
+
+}
+#logo{
+	float:left;
+
+}
+#text{
+	float: right;
+	color: #f5bc4e;
+	font-family: Arial;
+	position: relative;
+	right: 235px;
+}
+
+
+
+#navigation {
+
+	//sborder: 1px solid black;
+
+	position: fixed;
+
+	top: 100px;
+
+	width: 1400px;
+
+
+	
+
+}
+ul {
+
+	list-style-type: none;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 150px;
+    
+}
+li {
+    float: left;
+    margin-left: 15px;
+   
+
+}
+
+li a {
+    display: block;
+    color: #f5bc4e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background:#cc3228 ;
+     border-radius: 6px;
+}
+
+li a:hover {
+    background-color:  #f5bc4e;
+    color: #cc3228;
+    font-style: italic;
+    font-family: Helvetica;
+    
+}
+.dropbtn {
+    background-color: #cc3228;
+    color: #f5bc4e;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+     position: relative;
+     left: 15px;
+      border-radius: 6px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+     
+   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+     z-index: 1;
+     left: 8px;
+      
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+     
+
+}
+
+.dropdown-content a:hover {background-color: #f5bc4e ;
+							color: #cc3228;
+
+						 }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white; 
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f5bc4e;
+    color: #cc3228;
+    font-family: Helvetica;
+	font-style: italic;
+    
+}
+
+#main{
+
+	//border: 1px solid black;
+
+	margin-top: 181px;
+
+	width: 1400px;
+
+	background-color: grey;
+
+	clear: both;
+	
+
+}
+
+#content{
+
+	width: 900px;
+
+	height: auto;
+
+	//border: 1px solid black;
+
+	float: left;
+	background-color:#ede7da;
+	padding-left: 5px;
+	padding-right: 5px;
+
+
+	
+
+	//box-sizing: border-box;
+
+}
+#photo1{
+	float: left;
+	padding-right: 10px;
+
+
+}
+#photo1:hover{
+	opacity: 0.5;
+}
+#row2{
+	clear: both;
+
+}
+#photo2{
+	float: right;
+	padding-left: 10px;
+
+}
+#photo2:hover{
+	opacity: 0.5;
+}
+#photo3{
+	float: left;
+	padding-right: 10px;
+
+}
+#photo3:hover{
+	opacity: 0.5;
+}
+#row3{
+	clear: both;
+}
+#photo4{
+	float: right;
+	padding-left: 10px;
+
+}
+#photo4:hover{
+	opacity: 0.5;
+}
+#row4{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+
+#sidebar{
+
+	width: 500px;
+
+	height: auto;
+
+	//border: 1px solid black;
+
+	float: right;
+
+	//box-sizing: border-box;
+	background-color: #ede7da;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+#conection{
+	color: black;
+	text-align: center;
+}
+
+#footer{
+
+	width: 1420px;
+
+	height: 100px;
+
+	border: 1px solid black;
+
+	//margin-top: 10px;
+
+	background-color: black;
+
+	bottom: 0;
+
+	position: fixed;
+
+}
+
+h1{
+
+	text-align:center;
+
+	color: red;
+
+}
+#friends{
+	color: grey;
+	text-align: center;
+	position: relative;
+	bottom: 15px;
+
+}
+#sponsors{
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+	
+	
+
+}
